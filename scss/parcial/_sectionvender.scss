@@ -1,0 +1,252 @@
+/* Seccion vender */
+
+.vender {
+    background-image: url(/imagenes/fondo1.png);
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+
+.vender__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4rem;
+    width: 700px;
+    margin-left: auto;
+    .vender__parrafo {
+        font-size: 2rem;
+        font-family: $fuentesecundarios;
+        font-weight: 400;
+        color: $blanco;
+        width: 40rem;   
+        margin-top: 2rem; 
+        .vender__parrafo--bold {
+            font-weight: bold;
+        }
+    } 
+}
+
+.vender__titulo{
+    @extend %headings;
+    width: auto;
+    letter-spacing: .6rem;
+    margin-bottom: 0;
+    margin-top: 15rem;
+        
+}
+
+.vender__titulo2 {
+    margin: 0;
+} 
+
+.vender__flex {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height:auto;
+    .vender__imagen1 {
+        width: auto;
+        height: 35rem;
+        margin-bottom: 10rem;
+        
+        
+        }
+        .vender__imagen2 {
+            width: auto;
+            height: 50rem;
+            margin-top: -60rem;
+            }
+}
+
+
+@media (min-width: 950px ) and (max-width: 1163px ) {
+    /* Vender */
+
+    .vender {
+        background-image: url(/imagenes/fondo1.png);
+        background-repeat: no-repeat;
+        height: auto;
+    }
+    
+    .vender__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        margin: auto;
+    }
+    .vender__flex .vender__imagen1 {
+    width: auto;
+    height: 35rem;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    }
+}
+
+@media (min-width: 800px ) and (max-width: 950px ){
+    /* Vender */
+
+    .vender {
+        background-image: url(/imagenes/fondo1.png);
+        background-repeat: no-repeat;
+        height: auto;
+    }
+    
+    .vender__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        margin: auto;
+    }
+   .vender__flex .vender__imagen1 {
+    width: auto;
+    height: 35rem;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    }
+}
+
+@media (min-width: 700px ) and (max-width: 799px ) {
+    /* Vender */
+
+ .vender {
+    background-image: url(/imagenes/fondo1.png);
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.vender__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    margin: auto;
+}
+.vender__flex .vender__imagen1 {
+width: auto;
+height: 35rem;
+margin-bottom: 10rem;
+margin-top: 10rem;
+}
+}
+@media (min-width: 550px ) and (max-width: 699px ){
+    /* Vender */
+
+ .vender {
+    background-image: url(/imagenes/fondo1.png);
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.vender__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: auto;
+}
+
+.vender__flex {
+    width: auto;
+}
+.vender__flex .vender__imagen1 {
+width: auto;
+height: 35rem;
+margin-bottom: 10rem;
+margin-top: 10rem;
+}
+}
+
+@media (min-width: 350px ) and (max-width: 549px ){
+    /* Vender */
+
+ .vender {
+    background-image: url(/imagenes/fondo1.png);
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.vender__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: auto;
+}
+
+.vender__titulo {
+   text-align: center;
+}
+
+.vender__content .vender__parrafo {
+   width: auto;
+   text-align: center;
+}
+
+.vender__flex {
+    width: auto;
+}
+.vender__flex .vender__imagen1 {
+width: auto;
+height: 25rem;
+margin-bottom: 30rem;
+margin-top: 6rem;
+}
+
+.vender__flex .vender__imagen2 {
+   width: auto;
+   height: 30rem;
+}
+
+}
+
+@media (min-width: 280px ) and (max-width: 349px ) {
+    /* Vender */
+
+ .vender {
+    background-image: url(/imagenes/fondo1.png);
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.vender__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: auto;
+}
+
+.vender__titulo {
+   text-align: center;
+}
+
+.vender__content .vender__parrafo {
+   width: auto;
+   text-align: center;
+}
+
+.vender__flex {
+    width: auto;
+}
+.vender__flex .vender__imagen1 {
+   width: auto;
+   height: 25rem;
+   margin-bottom: 30rem;
+   margin-top: 6rem;
+   }
+  
+  .vender__flex .vender__imagen2 {
+      width: auto;
+      height: 30rem;
+   }
+}

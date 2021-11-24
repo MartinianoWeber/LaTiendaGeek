@@ -1,0 +1,228 @@
+@import 'variables';
+/* Header planes */
+.headerPlanes {
+    background-image: url(/imagenes/Header2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 400px;
+    .fijo {
+        width: 100%;
+        overflow:hidden;
+            .navegacion {
+                position: fixed;
+                z-index: 100;
+                background: rgba(0,0,0,0.78);
+                width: 100%;
+                padding: .5rem 1.5rem;
+                font-family: $fuentelogo;
+                font-weight: bold;
+                
+            }
+            .navegacion__planes {
+                display: flex;
+                justify-content: end;
+                align-items: center; 
+                justify-content: space-between;
+                
+
+                }
+
+        nav {
+            .logoPlanes {
+                @include alturas(80px, auto);
+                margin-bottom: 2rem;
+                margin-top: 2rem;
+            }
+            .logoplanes__imagen {
+                @include alturas(100%,100% );
+            }
+                .navegacion__items {
+                    text-decoration: none;
+                    color: $blanco;
+                    font-size: 1.5rem;
+                    padding: 1rem;
+                    border: 4px solid $morado;
+                    border-radius: 10rem;
+                    margin-bottom: 2rem;
+                    transition: 1s;
+                    &:hover {
+                        color: yellow !important;
+                        transition: 1s;
+                    }
+                }
+                
+              }
+        }
+        .headerplanes__titulo {
+            font-family: $fuentelogo;
+            text-align: center;
+            margin-top: 16rem;
+            color: $blanco;
+            font-size: 5rem;
+        }        
+}
+
+
+/* seccion planes */
+
+.planes {
+    background-color: $negro;
+    height: auto;
+    
+}
+
+.tarjetitas {
+    width: 25rem;
+    margin: auto;
+    color: $blanco;
+    
+}
+
+.width-carousel {
+    width: 40rem;
+    margin: auto;
+}
+
+.planes__general {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: $blanco;
+    margin: auto;
+    font-family: $fuentelogo;
+    width: 900px;
+    column-gap: 4rem;
+
+}
+
+.planes__tarjeta {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    width: 26rem;
+    height: 45rem;   
+    margin: auto;
+    margin-top: 7rem;
+    background-color: $backgroundbeneficio;
+    border-radius: 5px;
+    margin-bottom: 4rem;
+    
+}
+.tarjetas__grid {
+    padding: 2rem;
+}
+
+.planes__titulos {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -1rem;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: $moradomasclaro;
+    
+}
+
+.planes__titulos--margin {
+    margin-top: 8rem;
+}
+
+.planes__titulos--avanzado{
+    margin-top: 6rem;
+}
+
+
+.planes__descripcion, .planes__enumerado {
+    font-size: 1.5rem;
+    
+}
+
+.planes__link {
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    background-color: $morado;
+    border-radius: 4px;
+}
+
+.planes__link--carousel {
+    padding: 1rem;
+    width: 25rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+}
+
+li::marker {
+    color: $gris; 
+}
+
+
+.planes__link a {
+    color: $blanco;
+    transition: 2s;
+}
+
+.planes__link a:hover {
+    color: $negro;
+    font-size: 2.1rem;
+    
+}
+
+.planes__tarjeta--1 div, a{
+    margin-top: 3.8rem;
+   
+}
+
+.planes__tarjeta--2 {
+    position: relative;
+}
+
+.planes__tarjeta--2 div, a{
+    margin-top: 3.8rem;
+
+}
+
+.planes__tarjeta--3 div, a{
+    margin-top: 2.95rem;
+   
+}
+
+.planes__recomendado {
+    position: absolute;
+    top: calc(-10% - 6px);
+    left: calc(20% - 1px);
+    padding: 2rem;
+    background-color: $morado;
+    border-radius: 2rem;
+    color: $negro; 
+}
+
+.planes__recomendado--carousel {
+    top: calc(3% - 6px);
+    left: calc(31.5% - 1px);     
+}
+
+.planescarrousel {
+    display: none;
+}
+
+@media (min-width: 280px ) and (max-width: 900px ) {
+    .planesnormal {
+        display: none;
+    }
+    .planescarrousel {
+        display: block;
+    }
+}
+
+@media (min-width: 280px ) and (max-width: 400px ) {
+    .width-carousel{
+        width: auto;
+    }
+
+    .planes__enumerado{
+        margin-left: 8.5rem;
+    }
+}

@@ -1,0 +1,125 @@
+/*section beneficios */
+.beneficios {
+    background-color: black;
+    width: auto;
+    height: auto;
+    padding-bottom: 9rem;
+
+}
+
+
+.beneficios__flex {
+    display: flex;
+    .beneficios__titulo {
+        @extend %headings;
+        margin: auto;
+        margin-top: 6rem;
+    
+    }
+}
+
+.tarjeta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+    row-gap: 2rem;
+    width: 100%;
+    margin-top: 7rem;
+        .tarjeta__background {
+            background-color: $backgroundbeneficio;
+            width: 90%;
+            height: 18rem;
+            padding: 2rem;
+            margin-top: 3rem;
+            margin: auto;
+            .tarjeta__titulo {
+                font-size: 3.7rem;
+                color: $blanco;
+                font-family: $fuentetitulos;
+                text-align: center;
+                margin: 0;
+                margin-bottom: 2.5rem;
+                margin-top: -1rem;
+            }
+            
+            .tarjeta__texto {
+                font-size: 1.6rem;
+                color: $blanco;
+                font-family: $fuentesecundarios;
+                font-weight: 700;
+                text-align: center;
+            }
+            
+            .tarjeta__imagen {
+                width: 6rem;
+                height: auto;
+                margin-right: 2rem;
+                margin-top: 1.2rem;
+            }
+            
+            
+        }
+
+}
+
+@media (min-width: 950px ) and (max-width: 1163px ) {
+   .tarjeta .tarjeta__background {
+        height: 24rem;
+    }
+}
+@media (min-width: 800px ) and (max-width: 950px ){
+    .tarjeta .tarjeta__background {
+        height: 24rem;
+    }
+}
+@media (min-width: 700px ) and (max-width: 799px ){
+    /* beneficios */
+    .tarjeta .tarjeta__background {
+    height: 26rem;
+}
+}
+@media (min-width: 550px ) and (max-width: 699px ) {
+    .tarjeta {
+        display: flex;
+        flex-direction: column;
+        .tarjeta__background {
+            height: 24rem;
+        }
+    }
+    
+   
+}
+@media (min-width: 350px ) and (max-width: 549px ){
+    /* beneficios */
+.beneficios__titulo {
+    margin-top: 9.5rem;
+}
+
+ .tarjeta {
+     display: flex;
+     flex-direction: column;
+     .tarjeta__background {
+        height: 26rem;}  
+ }
+ 
+ .beneficios__flex .beneficios__titulo {
+        text-align: center;
+    }
+}
+@media (min-width: 280px ) and (max-width: 349px ) {
+    /* beneficios */
+
+ .tarjeta {
+    display: flex;
+    flex-direction: column;
+    .tarjeta__background {
+        height: 34rem;
+    }
+}
+
+
+
+.beneficios__flex .beneficios__titulo {
+    text-align: center;
+}
+}

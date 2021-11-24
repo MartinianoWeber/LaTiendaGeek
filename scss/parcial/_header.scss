@@ -1,0 +1,164 @@
+/* Inicio de Header */
+
+
+.header{
+    background-image: url(/imagenes/Header1-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: auto;
+    height: 750px;
+        .fijo{
+            width: 100%;
+            overflow:hidden;
+            .navegacion {
+                position: fixed;
+                z-index: 100;
+                background: rgba(0,0,0,0.78);
+                width: 100%;
+                padding: .5rem 1.5rem;
+                font-family: $fuentelogo;
+                font-weight: bold;
+                    .navegacion__color{
+                        border: 4px solid $morado;
+                    }
+                    .navegacion--color {
+                        color: $moradomasclaro;
+                    }  
+                    .text-white {
+                        transition: 1s!important;
+                        &:hover {
+                            color: yellow !important; 
+                            transition: 1s;
+                           
+                        }
+                    }            
+            }
+        }  
+    }
+        .logo {
+            margin-left: 5rem;
+            margin-top: 13rem;
+            h1{
+                color: $blanco;
+                font-family: $fuentelogo;
+                font-size: 10rem;
+                margin-right: 10rem;
+            }
+            .logo__partedos {
+                color: $blanco;
+                font-family: $fuentelogo;
+                font-size: 10rem;
+                margin-top: -4.5rem;
+                display: flex;
+                margin-bottom: 0;
+                    .logo__imagen {
+                        @include alturas(350px,auto);
+                        margin-left: -6rem;
+                        margin-top: -3rem;
+                    
+                }
+          }
+          .logo__subtitulo {
+            font-family: $fuentelogo;
+            color: $gris;
+            font-size: 2.5rem;
+            margin-top: -2rem;
+            margin-left: auto;
+        }
+        }
+        .flechahaciaabajo {
+            display: flex;
+            @include alturas(200px,150px);
+            margin: auto;
+            margin-top: 19rem;
+            transition-duration: 1s;
+                &:hover {
+                    width: 230px;
+                    transition-duration: 2s;
+                
+                }
+        }
+
+
+
+@media (max-width: 1280px) {
+    /* Navegacion */
+    header .fijo .navegacion {
+        width: 100%;
+        
+    } 
+}
+
+
+@media (min-width: 700px ) and (max-width: 799px ) {
+
+     /*nav*/
+ .nav__desaparecer{
+    display: block !important;
+}
+
+.nav__desaparecer2{
+    display: none !important;
+}
+}
+
+@media (min-width: 550px ) and (max-width: 699px ) {
+
+    .logo .logo__partedos .logo__imagen {
+        width: 330px;
+    }
+}
+
+@media (min-width: 350px ) and (max-width: 549px ){
+
+        .header .fijo .navegacion {
+           padding: 4rem;
+       }
+
+       /* Header */
+       .logo {
+           margin-left: 1rem;
+       }
+   
+       .logo h1 {
+           font-size: 7rem;
+       }
+       .logo .logo__partedos {
+           font-size: 5.7rem;
+           margin-top: .5rem;
+       }
+   
+       .logo .logo__partedos .logo__imagen  {
+           width: 250px;
+       }
+}
+
+@media (min-width: 280px ) and (max-width: 349px ){
+
+    .header .fijo .navegacion {
+        padding: 2rem;
+    }
+    .nav-link {
+        text-align: center;
+    }
+
+    /* Header */
+    .logo {
+        margin-left: 1rem;
+    }
+
+    .logo .logo__parteuno {
+        font-size: 6rem;
+    }
+    .logo .logo__partedos {
+        font-size: 6rem;
+        margin-top: .5rem;
+    }
+
+    .logo .logo__partedos .logo__imagen {
+        width: 170px;
+        margin-left: -5rem;
+    margin-top: -1.2rem;
+    }
+}

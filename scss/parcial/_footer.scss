@@ -1,0 +1,33 @@
+.footer {
+    height: auto;
+    background-color: $backgroundbeneficio;    
+}
+
+.footer__texto {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer__texto p {
+    margin-top: 4rem;
+    margin-bottom: 0;
+    color: $blanco;
+    font-family: $fuentesecundarios;
+    font-size: 2rem;
+}
+
+@media (min-width: 280px ) and (max-width: 580px ){
+    .footer {
+        height: 120px;
+    }
+    .footer__texto {
+     flex-direction: column;
+     text-align: center;
+     height: 80px;
+ }
+ .footer__texto p {
+    margin-top: 1rem;
+ }
+
+}
