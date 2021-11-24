@@ -47,7 +47,7 @@ img {
 
 /* Inicio de Header */
 .header {
-  background-image: url(..//imagenes/header1-min.png);
+  background-image: url(.././imagenes/header1-min.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
