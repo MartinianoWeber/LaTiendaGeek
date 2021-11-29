@@ -1469,7 +1469,7 @@ textarea {
 }
 /* Header planes */
 .headerPlanes {
-  background-image: url(/imagenes/Header2.jpg);
+  background-image: url(../imagenes/Header2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
