@@ -51,7 +51,7 @@ textarea {
 
 /* Inicio de Header */
 .header {
-  background-image: url(/imagenes/Header1-min.png);
+  background-image: url(../imagenes/Header1-min.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -1291,7 +1291,7 @@ textarea {
 }
 /* section de contacto*/
 .contacto {
-  background-image: url(/imagenes/fondo2.png);
+  background-image: url(../imagenes/fondo2.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
