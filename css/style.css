@@ -205,7 +205,7 @@ textarea {
 }
 /* Seccion vender */
 .vender {
-  background-image: url(../imagenes/fondo1.png);
+  background-image: url(/imagenes/fondo1.png);
   background-repeat: no-repeat;
   height: auto;
 }
@@ -262,7 +262,7 @@ textarea {
 @media (min-width: 950px) and (max-width: 1163px) {
   /* Vender */
   .vender {
-    background-image: url(../imagenes/fondo1.png);
+    background-image: url(/imagenes/fondo1.png);
     background-repeat: no-repeat;
     height: auto;
   }
@@ -286,7 +286,7 @@ textarea {
 @media (min-width: 800px) and (max-width: 950px) {
   /* Vender */
   .vender {
-    background-image: url(../imagenes/fondo1.png);
+    background-image: url(/imagenes/fondo1.png);
     background-repeat: no-repeat;
     height: auto;
   }
@@ -310,7 +310,7 @@ textarea {
 @media (min-width: 700px) and (max-width: 799px) {
   /* Vender */
   .vender {
-    background-image: url(../imagenes/fondo1.png);
+    background-image: url(/imagenes/fondo1.png);
     background-repeat: no-repeat;
     height: auto;
   }
@@ -334,7 +334,7 @@ textarea {
 @media (min-width: 550px) and (max-width: 699px) {
   /* Vender */
   .vender {
-    background-image: url(../imagenes/fondo1.png);
+    background-image: url(/imagenes/fondo1.png);
     background-repeat: no-repeat;
     height: auto;
   }
@@ -362,7 +362,7 @@ textarea {
 @media (min-width: 350px) and (max-width: 549px) {
   /* Vender */
   .vender {
-    background-image: url(../imagenes/fondo1.png);
+    background-image: url(/imagenes/fondo1.png);
     background-repeat: no-repeat;
     height: auto;
   }
@@ -404,7 +404,7 @@ textarea {
 @media (min-width: 280px) and (max-width: 349px) {
   /* Vender */
   .vender {
-    background-image: url(../imagenes/fondo1.png);
+    background-image: url(/imagenes/fondo1.png);
     background-repeat: no-repeat;
     height: auto;
   }
@@ -1469,7 +1469,7 @@ textarea {
 }
 /* Header planes */
 .headerPlanes {
-  background-image: url(../imagenes/Header2.jpg);
+  background-image: url(/imagenes/Header2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1635,7 +1635,7 @@ li::marker {
 }
 
 .planes__tarjeta--3 div, a {
-  margin-top: 2.95rem;
+  margin-top: 2.7rem;
 }
 
 .planes__recomendado {
@@ -1673,6 +1673,36 @@ li::marker {
 
   .planes__enumerado {
     margin-left: 8.5rem;
+  }
+}
+@media (min-width: 360px) and (max-width: 380px) {
+  .planes__recomendado--carousel {
+    top: calc(3% - 6px);
+    left: calc(30.5% - 1px);
+  }
+}
+@media (min-width: 340px) and (max-width: 360px) {
+  .planes__recomendado--carousel {
+    top: calc(3% - 6px);
+    left: calc(29.5% - 1px);
+  }
+}
+@media (min-width: 320px) and (max-width: 340px) {
+  .planes__recomendado--carousel {
+    top: calc(3% - 6px);
+    left: calc(28.5% - 1px);
+  }
+}
+@media (min-width: 300px) and (max-width: 320px) {
+  .planes__recomendado--carousel {
+    top: calc(3% - 6px);
+    left: calc(28.5% - 1px);
+  }
+}
+@media (min-width: 280px) and (max-width: 300px) {
+  .planes__recomendado--carousel {
+    top: calc(3% - 6px);
+    left: calc(27.5% - 1px);
   }
 }
 

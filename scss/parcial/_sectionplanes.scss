@@ -185,8 +185,7 @@ li::marker {
 }
 
 .planes__tarjeta--3 div, a{
-    margin-top: 2.95rem;
-   
+    margin-top: 2.70rem;
 }
 
 .planes__recomendado {
@@ -226,3 +225,39 @@ li::marker {
         margin-left: 8.5rem;
     }
 }
+@media (min-width: 360px ) and (max-width: 380px ) {
+    .planes__recomendado--carousel {
+        top: calc(3% - 6px);
+        left: calc(30.5% - 1px);     
+    }
+}
+@media (min-width: 340px ) and (max-width: 360px ) {
+    .planes__recomendado--carousel {
+        top: calc(3% - 6px);
+        left: calc(29.5% - 1px);     
+    }
+}
+
+@media (min-width: 320px ) and (max-width: 340px ) {
+    .planes__recomendado--carousel {
+        top: calc(3% - 6px);
+        left: calc(28.5% - 1px);     
+    }
+}
+
+@media (min-width: 300px ) and (max-width: 320px ) {
+    .planes__recomendado--carousel {
+        top: calc(3% - 6px);
+        left: calc(28.5% - 1px);     
+    }
+}
+
+
+
+@media (min-width: 280px ) and (max-width: 300px ) {
+    .planes__recomendado--carousel {
+        top: calc(3% - 6px);
+        left: calc(27.5% - 1px);     
+    }
+}
+
