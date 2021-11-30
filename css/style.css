@@ -456,7 +456,7 @@ textarea {
 }
 .beneficios__flex .beneficios__titulo {
   margin: auto;
-  margin-top: 6rem;
+  margin-top: 10rem;
 }
 
 .tarjeta {
@@ -631,7 +631,7 @@ textarea {
   font-size: 5rem;
   font-family: "Oswald";
   margin: auto;
-  margin-top: 6rem;
+  margin-top: 9rem;
 }
 
 .finanzas__grid {
@@ -1295,7 +1295,7 @@ textarea {
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 600px;
+  height: 623px;
 }
 
 .contacto__flex {
@@ -1303,7 +1303,7 @@ textarea {
 }
 .contacto__flex .contacto__titulo {
   margin: auto;
-  margin-top: 6rem;
+  margin-top: 8rem;
   margin-bottom: -6rem;
 }
 
