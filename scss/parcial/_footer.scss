@@ -7,7 +7,8 @@
 
 .footer__creador {
 display: flex;
-justify-content: center;
+margin: auto;
+width: 550px;
 a{
     margin-top: 2rem;
     text-decoration: none;
@@ -37,12 +38,16 @@ height: 40px;
     .footer{
         display: flex;
         height: auto;
-        
         width: auto;
+        
 
         .footer__creador{
             flex-direction: column;
-            margin: auto;
+            width: 400px;
+            a{
+                text-align: center;
+            }
+            
         }
     }
 }

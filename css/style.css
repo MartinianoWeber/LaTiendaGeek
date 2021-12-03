@@ -149,7 +149,8 @@ textarea {
 }
 @media (min-width: 550px) and (max-width: 699px) {
   .logo .logo__partedos .logo__imagen {
-    width: 330px;
+    width: 250px;
+    height: auto;
   }
 }
 @media (min-width: 350px) and (max-width: 549px) {
@@ -1442,7 +1443,8 @@ textarea {
 
 .footer__creador {
   display: flex;
-  justify-content: center;
+  margin: auto;
+  width: 550px;
 }
 .footer__creador a {
   margin-top: 2rem;
@@ -1474,7 +1476,10 @@ textarea {
   }
   .footer .footer__creador {
     flex-direction: column;
-    margin: auto;
+    width: 400px;
+  }
+  .footer .footer__creador a {
+    text-align: center;
   }
 }
 /* Header planes */
