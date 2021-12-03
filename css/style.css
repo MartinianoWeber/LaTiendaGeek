@@ -120,13 +120,14 @@ textarea {
 .flechahaciaabajo {
   display: flex;
   width: 200px;
-  height: 150px;
+  height: auto;
   margin: auto;
   margin-top: 19rem;
   transition-duration: 1s;
 }
 .flechahaciaabajo:hover {
   width: 230px;
+  height: auto;
   transition-duration: 2s;
 }
 

@@ -69,12 +69,13 @@
         }
         .flechahaciaabajo {
             display: flex;
-            @include alturas(200px,150px);
+            @include alturas(200px,auto);
             margin: auto;
             margin-top: 19rem;
             transition-duration: 1s;
                 &:hover {
                     width: 230px;
+                    height: auto;
                     transition-duration: 2s;
                 
                 }
